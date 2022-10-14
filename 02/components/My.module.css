@@ -1,0 +1,21 @@
+.p1 {
+  background-color: blue;
+  color: white;
+}
+
+
+/* MyHello 컴포넌트 */
+.divHello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanHello {
+  color: blue;
+}
+
+.numHello {
+  color: red;
+}
