@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainDiv, .mainDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainDiv>ul:hover {
+  background-color: azure;
+  cursor: pointer;
+}
+
+.mainDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.mainDiv2 > ul {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  width: 350px;
+}
+
+h1 {
+  background-color:darkslateblue;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.mvForm {
+  background-color:aliceblue ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+input[type=text] , button {
+  display: inline-flex;
+  height: 30px;
+  margin: 5px;
+}
+
+
+ul {
+  list-style: none;
+  width : 400px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.mvLi {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+
+.mvLiK {
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  width: 100px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.mvLiV {
+  display: inline-flex; 
+  align-items: center; 
+  padding: 5px; 
+  /*border-bottom: 1px solid gray;*/
+  width: 300px;
+  padding-left: 15px;
+}
+
+.rank {
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  display: inline-flex; 
+  justify-content: center;
+  align-items: center; 
+  width: 10%;
+}
+
+.movieNm {
+  width : 85%;
+  margin-left: 10px;
+}
